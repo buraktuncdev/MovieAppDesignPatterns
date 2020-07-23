@@ -1,0 +1,19 @@
+
+{
+ "artistName": "Rod Lurie",
+ "id": "1515512877",
+ "releaseDate": "2020-07-03",
+ "name": "The Outpost",
+ "kind": "movie",
+ "copyright": "© 2020 OUTPOST PRODUCTIONS, INC. ALL RIGHTS RESERVED.",
+ "contentAdvisoryRating": "Explicit",
+ "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/35/c4/ca/35c4ca11-e7a4-6154-45b5-a9f3a53a1d08/pr_source.lsr/200x200bb.png",
+ "genres": [
+   {
+     "genreId": "4401",
+     "name": "Action & Adventure",
+     "url": "https://itunes.apple.com/us/genre/id4401"
+   }
+  ],
+ "url": "https://itunes.apple.com/us/movie/the-outpost/id1515512877"
+}
