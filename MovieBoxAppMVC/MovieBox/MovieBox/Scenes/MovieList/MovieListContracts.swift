@@ -10,12 +10,12 @@ import Foundation
 
 
 // Communicate Controller and View
-protocol MovieListViewProtocol {
+@objc protocol MovieListViewProtocol: class{
     var delegate: MovieListViewDelegate? { get set }
     func updateMovieList(_ movieList: [MoviePresentation])
     func setLoading(_ isLoading: Bool)
 }
 
-protocol MovieListViewDelegate: class {
+@objc protocol MovieListViewDelegate: class {
     func didSelectMovie(at index: Int)
 }

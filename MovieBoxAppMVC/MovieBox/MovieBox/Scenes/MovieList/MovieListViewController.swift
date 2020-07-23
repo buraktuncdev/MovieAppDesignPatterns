@@ -11,13 +11,13 @@ import MovieBoxAPI
 
 final class MovieListViewController: UIViewController {
     
-    @IBOutlet weak var customView: MovieListView! {
+    @IBOutlet weak var customView: MovieListViewProtocol! {
         didSet {
             customView.delegate = self
         }
     }
     
-    var service: TopMoviesService! // Implicitly Unwrapped because we instantiate. Storyboard inject the Custom View, but we need service dependency injection.
+    var service: TopMoviesServiceProtocol! // Implicitly Unwrapped because we instantiate. Storyboard inject the Custom View, but we need service dependency injection.
     
     
     private var movieList: [Movie] = []

@@ -9,14 +9,20 @@
 import Foundation
 import MovieBoxAPI
 
-struct MoviePresentation{
+final class MoviePresentation:NSObject {
     // Each row shows title and detail
     let title: String
     let detail: String
+    
+    init(title: String, detail:String) {
+        self.title = title
+        self.detail = detail
+        super.init()
+    }
 }
 
 extension MoviePresentation {
-    init(movie: Movie) {
+    convenience init(movie: Movie) {
         self.init(title: movie.name, detail: movie.artistName)
     }
 }
